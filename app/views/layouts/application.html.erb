@@ -13,6 +13,12 @@
   </head>
 
   <body>
+    <nav class="navbar bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">Simple Airbnb</a>
+        <button class="btn btn-outline-primary"><%= link_to "Add flat", new_flat_path %></button>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>
